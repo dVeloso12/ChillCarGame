@@ -42,14 +42,16 @@ public class ChunkGenerate : EditorWindow
         ground.transform.localScale = new Vector3(ChunkSize.x,3f,ChunkSize.y);
         ground.transform.parent = root.transform;
         float point = ChunkSize.x * UNITVALUE;
-        PointPrefab.transform.localScale = new Vector3(ChunkSize.x / 2f, 2f, ChunkSize.y / 2f);
-        var WestPoint = Instantiate(PointPrefab,new Vector3(point,0,0), Quaternion.identity,root.transform);
+        //PointPrefab.transform.localScale = new Vector3(ChunkSize.x / 2f, 2f, ChunkSize.y / 2f);
+        var WestPoint = Instantiate(PointPrefab,new Vector3(point, -1.26f, 0),Quaternion.identity, root.transform);
+        WestPoint.transform.localEulerAngles = new Vector3(0, 90f, 0);
         WestPoint.name = "ExitPointWest";
-        var NorthPoint = Instantiate(PointPrefab, new Vector3(0, 0, point), Quaternion.identity,root.transform);
+        var NorthPoint = Instantiate(PointPrefab, new Vector3(0, -1.26f, point), Quaternion.identity,root.transform);
         NorthPoint.name = "ExitPointNorth";
-        var EastPoint = Instantiate(PointPrefab, new Vector3(-point, 0, 0), Quaternion.identity, root.transform);
+        var EastPoint = Instantiate(PointPrefab, new Vector3(-point, -1.26f, 0), Quaternion.identity, root.transform);
+        EastPoint.transform.localEulerAngles = new Vector3(0, -90f, 0);
         EastPoint.name = "ExitPointEast";
-        var SouthPoint = Instantiate(PointPrefab, new Vector3(0, 0, -point), Quaternion.identity, root.transform);
+        var SouthPoint = Instantiate(PointPrefab, new Vector3(0, -1.26f, -point), Quaternion.identity, root.transform);
         SouthPoint.name = "ExitPointSouth";
         switch(exit_point)
         {
