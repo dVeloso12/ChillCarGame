@@ -1,38 +1,44 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VehiclePhysics;
 
 public class Car_Controller : MonoBehaviour
 {
-    public Rigidbody sphereRB;
-    private float moveInput;
-    private float turnInput;
 
-    public float fwdSpeed;
-    public float backSpeed;
-    public float turnSpeed;
+    [SerializeField] VPCameraController controller;
+    [SerializeField] List<GameObject> ListOfCars;
+    [SerializeField] public GameObject currentCar;
+    [Header("Car Changes")]
+    [SerializeField] VPStandardInput.ThrottleAndBrakeMode mode;
 
     private void Start()
     {
-        sphereRB.transform.parent = null;
+        controller.target = currentCar.transform;
+        UpdateValuesCamera();
+        UpdateCar();
     }
+
     private void Update()
     {
-        moveInput = Input.GetAxisRaw("Vertical");
-        turnInput = Input.GetAxisRaw("Horizontal");
-        
-        moveInput *= moveInput > 0 ? fwdSpeed : backSpeed;
-
-    
-        transform.position = sphereRB.transform.position;
-
-        float newRotation = turnInput * turnSpeed * Time.deltaTime * Input.GetAxisRaw("Vertical");
-
-        transform.Rotate(0, newRotation, 0,Space.World);
+        UpdateCar();
     }
 
-    private void FixedUpdate()
+    void UpdateValuesCamera()
     {
-        sphereRB.AddForce(transform.forward * moveInput,ForceMode.Acceleration);
+        controller.smoothFollow.distance = 3.2f;
+        controller.smoothFollow.height = 1.24f;
+
     }
+    void UpdateCar()
+    {
+        currentCar.GetComponent<VPStandardInput>().throttleAndBrakeMode = mode;
+    }
+
+    void ChangeCar(GameObject car)
+    {
+        controller.target = car.transform;
+        currentCar = car;
+    }
+
 }
