@@ -11,6 +11,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using EdyCommonTools;
+using TMPro;
 
 
 namespace VehiclePhysics.UI
@@ -20,6 +21,8 @@ public class Dashboard : MonoBehaviour
 	{
 	public VehicleBase vehicle;
 
+	[SerializeField] float CurrentSpeed;
+	
 	[Header("Needles")]
 	public Needle speedNeedle = new Needle();
 	public Needle rpmNeedle = new Needle();
@@ -36,7 +39,8 @@ public class Dashboard : MonoBehaviour
 	public GameObject singleAxleDiffLockSignal;
 
 	[Header("UI labels")]
-	public Text gearLabel;
+	public TextMeshProUGUI gearLabel;
+		public TextMeshProUGUI currentspeedTxt;
 	public Text speedMphLabel;
 
 	[Serializable]
@@ -121,6 +125,7 @@ public class Dashboard : MonoBehaviour
 		if (engineRpm < 0) engineRpm = 0.0f;
 
 		speedNeedle.SetValue(speedMs * 3.6f);
+			CurrentSpeed = speedMs * 3.6f;
 		rpmNeedle.SetValue(engineRpm);
 
 		// Warning signal also at update rate because of its timing
@@ -242,7 +247,7 @@ public class Dashboard : MonoBehaviour
 					}
 				}
 
-
+				currentspeedTxt.text = MathF.Round(CurrentSpeed).ToString();
 			m_lastVehicleTime = vehicle.time;
 			}
 		}
