@@ -1,0 +1,387 @@
+# Blender MTL File: 'Portagem.blend'
+# Material Count: 37
+
+newmtl Bedrock_stone
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\Enviroments\\CarChillGameAssets\\assets\\materials\\bedrock_stone_49421e3d-ba3c-414f-8dbc-46f2ab761f3d\\textures\\bedrock_stone_BaseColor.png
+map_Ns C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\Enviroments\\CarChillGameAssets\\assets\\materials\\bedrock_stone_49421e3d-ba3c-414f-8dbc-46f2ab761f3d\\textures\\bedrock_stone_Roughness.png
+refl C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\Enviroments\\CarChillGameAssets\\assets\\materials\\bedrock_stone_49421e3d-ba3c-414f-8dbc-46f2ab761f3d\\textures\\bedrock_stone_Metallic.png
+
+newmtl Bedrock_stone.001
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\Enviroments\\CarChillGameAssets\\assets\\materials\\bedrock_stone_49421e3d-ba3c-414f-8dbc-46f2ab761f3d\\textures\\bedrock_stone_BaseColor.png
+map_Ns C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\Enviroments\\CarChillGameAssets\\assets\\materials\\bedrock_stone_49421e3d-ba3c-414f-8dbc-46f2ab761f3d\\textures\\bedrock_stone_Roughness.png
+refl C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\Enviroments\\CarChillGameAssets\\assets\\materials\\bedrock_stone_49421e3d-ba3c-414f-8dbc-46f2ab761f3d\\textures\\bedrock_stone_Metallic.png
+
+newmtl Bedrock_stone.002
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\Enviroments\\CarChillGameAssets\\assets\\materials\\bedrock_stone_49421e3d-ba3c-414f-8dbc-46f2ab761f3d\\textures\\bedrock_stone_BaseColor.png
+map_Ns C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\Enviroments\\CarChillGameAssets\\assets\\materials\\bedrock_stone_49421e3d-ba3c-414f-8dbc-46f2ab761f3d\\textures\\bedrock_stone_Roughness.png
+refl C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\Enviroments\\CarChillGameAssets\\assets\\materials\\bedrock_stone_49421e3d-ba3c-414f-8dbc-46f2ab761f3d\\textures\\bedrock_stone_Metallic.png
+
+newmtl Brick
+Ns 107.195708
+Ka 0.787234 0.787234 0.787234
+Kd 0.479836 0.079348 0.001469
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd -s 18.799999 27.000000 1.000000 C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\BakedBrick.png
+
+newmtl Brick.001
+Ns 107.195708
+Ka 0.787234 0.787234 0.787234
+Kd 0.479836 0.079348 0.001469
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd -s 18.799999 27.000000 1.000000 C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\BakedBrick.png
+
+newmtl Brick.002
+Ns 107.195708
+Ka 0.787234 0.787234 0.787234
+Kd 0.479836 0.079348 0.001469
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd -s 18.799999 27.000000 1.000000 C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\BakedBrick.png
+
+newmtl CaixaPagamentoBaseColor
+Ns 34.234947
+Ka 0.865248 0.865248 0.865248
+Kd 0.800000 0.771232 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl CaixaPagamentoDobras
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl CaixaPagamentoSecondColor
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.043208 0.043208 0.043208
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl CancelaBaseColour
+Ns 759.516236
+Ka 0.376271 0.376271 0.376271
+Kd 0.238566 0.238566 0.238566
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl CancelaDetalhes
+Ns 756.716174
+Ka 0.220339 0.220339 0.220339
+Kd 0.133613 0.133613 0.133613
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl CancelaRed
+Ns 759.516236
+Ka 0.440678 0.440678 0.440678
+Kd 0.800000 0.016406 0.021608
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl CoberturaBaseColor
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.292947 0.292947 0.292947
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl CoberturaSecundaria
+Ns 668.277527
+Ka 0.276596 0.276596 0.276596
+Kd 0.244211 0.504384 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Concreto
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.723532 0.520473
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Lights
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Lights.001
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Lock
+Ns 900.000000
+Ka 0.659574 0.659574 0.659574
+Kd 0.739085 0.739085 0.739085
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Metal
+Ns 900.000000
+Ka 0.163121 0.163121 0.163121
+Kd 0.226616 0.226616 0.226616
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Metal.001
+Ns 900.000000
+Ka 0.163121 0.163121 0.163121
+Kd 0.226616 0.226616 0.226616
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Metal.002
+Ns 900.000000
+Ka 0.163121 0.163121 0.163121
+Kd 0.226616 0.226616 0.226616
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Metal.004
+Ns 900.000000
+Ka 0.163121 0.163121 0.163121
+Kd 0.226616 0.226616 0.226616
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl None
+Ns 500
+Ka 0.8 0.8 0.8
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl QuestionMark
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.008918 0.036570 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Road
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\Enviroments\\CarChillGameAssets\\assets\\materials\\Road\\TexturesCom_Pavement_RoadNew_White_512_albedo.tif
+
+newmtl Road.002
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\Enviroments\\CarChillGameAssets\\assets\\materials\\Road\\TexturesCom_Pavement_RoadNew_White_512_albedo.tif
+
+newmtl SemaforoBaseColour
+Ns 751.131564
+Ka 1.000000 1.000000 1.000000
+Kd 0.095921 0.095921 0.095921
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl SemaforoGreen
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.800000 0.023981
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 1.000000 0.064647
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl SemaforoRed
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.000000 0.004869
+Ks 0.500000 0.500000 0.500000
+Ke 1.000000 0.000281 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl SetaDireita
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\SetaDireita.png
+
+newmtl SetaEsquerda
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\SetaEsquerda.png
+
+newmtl Stop
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Diogo Veloso\\Desktop\\ProjetoPessoal\\Stop.png
+
+newmtl TextureAtlas
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl TextureAtlas.001
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl VisorDeluz
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.386887 0.117749
+Ks 0.500000 0.500000 0.500000
+Ke 1.000000 0.208568 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl material
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl material.002
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2

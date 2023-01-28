@@ -12,6 +12,7 @@ public class UIController : MonoBehaviour
     [SerializeField] Dashboard dash;
     [SerializeField] AidsPanel aids;
     [SerializeField] IgnitionKey igntion;
+    
 
     private void Update()
     {
