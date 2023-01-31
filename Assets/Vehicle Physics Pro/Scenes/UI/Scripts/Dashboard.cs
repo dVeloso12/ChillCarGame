@@ -21,7 +21,7 @@ public class Dashboard : MonoBehaviour
 	{
 	public VehicleBase vehicle;
 
-	[SerializeField] float CurrentSpeed;
+	[SerializeField] public float CurrentSpeed;
 	
 	[Header("Needles")]
 	public Needle speedNeedle = new Needle();
@@ -42,6 +42,7 @@ public class Dashboard : MonoBehaviour
 	public TextMeshProUGUI gearLabel;
 		public TextMeshProUGUI currentspeedTxt;
 	public Text speedMphLabel;
+	
 
 	[Serializable]
 	public class Needle
@@ -249,6 +250,7 @@ public class Dashboard : MonoBehaviour
 
 				currentspeedTxt.text = MathF.Round(CurrentSpeed).ToString();
 			m_lastVehicleTime = vehicle.time;
+
 			}
 		}
 

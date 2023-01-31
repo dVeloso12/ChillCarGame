@@ -20,7 +20,7 @@ public class TriggerExit : MonoBehaviour
             {
                 exited = true;
                 OnChunkExited();
-                StartCoroutine(WaitAndDeactivate());
+                this.gameObject.SetActive(false);
             }
 
 
@@ -31,7 +31,8 @@ public class TriggerExit : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
 
-        transform.root.gameObject.SetActive(false);
+        this.gameObject.SetActive(false);
+
 
     }
 

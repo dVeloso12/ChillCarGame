@@ -16,6 +16,8 @@ public class LevelGenerator : MonoBehaviour
     public List<GameObject> chunkList;
     private GameObject root;
 
+    [SerializeField] GameObject start;
+
 
     void OnEnable()
     {
@@ -107,6 +109,8 @@ public class LevelGenerator : MonoBehaviour
             chunkList.RemoveAt(0);
             Destroy(chunkDelete);
             ChunksActive--;
+            if (start != null)
+                Destroy(start);
         }
 
     }
