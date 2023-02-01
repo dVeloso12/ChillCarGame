@@ -7,16 +7,17 @@ public class Car_Controller : MonoBehaviour
 {
 
     [SerializeField] VPCameraController controller;
-    [SerializeField] List<GameObject> ListOfCars;
+    [SerializeField] public List<GameObject> ListOfCars;
     [SerializeField] public GameObject currentCar;
     [Header("Car Changes")]
     [SerializeField] VPStandardInput.ThrottleAndBrakeMode mode;
 
     private void Start()
     {
-        controller.target = currentCar.transform;
+        UpdateCameraTarget();
         UpdateValuesCamera();
         UpdateCar();
+       
     }
 
     private void Update()
@@ -35,10 +36,9 @@ public class Car_Controller : MonoBehaviour
         currentCar.GetComponent<VPStandardInput>().throttleAndBrakeMode = mode;
     }
 
-    void ChangeCar(GameObject car)
+    void UpdateCameraTarget()
     {
-        controller.target = car.transform;
-        currentCar = car;
+        controller.target = currentCar.transform;
     }
 
 }

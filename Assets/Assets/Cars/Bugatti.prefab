@@ -1921,6 +1921,7 @@ GameObject:
   - component: {fileID: 2381882799242844228}
   - component: {fileID: 2381882799242844234}
   - component: {fileID: 2381882799242844232}
+  - component: {fileID: 544208127073764643}
   m_Layer: 8
   m_Name: Bugatti
   m_TagString: Car
@@ -2399,6 +2400,19 @@ MonoBehaviour:
   resetVehicleKey: 13
   heightIncrement: 1.6
   resetState: 0
+--- !u!114 &544208127073764643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2381882799242844226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbfba02f56d1d141899cc487c934316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Index: 2
 --- !u!1 &2381882799365115234
 GameObject:
   m_ObjectHideFlags: 0

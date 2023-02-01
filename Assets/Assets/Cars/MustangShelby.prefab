@@ -1884,6 +1884,7 @@ GameObject:
   - component: {fileID: 1175431196670870521}
   - component: {fileID: 1175431196670870519}
   - component: {fileID: 1175431196670870517}
+  - component: {fileID: 9103451979993987238}
   m_Layer: 8
   m_Name: MustangShelby
   m_TagString: Car
@@ -2363,6 +2364,19 @@ MonoBehaviour:
   resetVehicleKey: 13
   heightIncrement: 1.6
   resetState: 0
+--- !u!114 &9103451979993987238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175431196670870527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbfba02f56d1d141899cc487c934316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Index: 5
 --- !u!1 &1175431196743412353
 GameObject:
   m_ObjectHideFlags: 0
