@@ -11,16 +11,26 @@ public class GameManager : MonoBehaviour
     [SerializeField] Dashboard dash;
     [SerializeField] Car_Controller carController;
 
+
     [SerializeField] bool viaVerde;
 
+    [Header("UpdateStuff")]
+    [SerializeField] Camera cam;
     private float currentDistanceDone;
     [SerializeField] TextMeshProUGUI currentDistaceTxt;
 
     private void Awake()
     {
+        setStartValues();
+        
+    }
+
+    void setStartValues()
+    {
         carController = GetComponent<Car_Controller>();
         getCar();
-        
+        cam.fieldOfView = data.FovValue;
+
     }
 
     void getCar()
@@ -34,14 +44,24 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+
+    
     private void Update()
+    {
+        UpdateValues();
+    }
+
+
+    void UpdateValues()
     {
         currentDistanceDone += dash.CurrentSpeed * Time.deltaTime;
         currentDistaceTxt.text = Mathf.Round(currentDistanceDone).ToString();
-        if(currentDistanceDone >= 2000)
+
+        if (currentDistanceDone >= 2000)
         {
             viaVerde = true;
         }
-    }
+        cam.fieldOfView = data.FovValue;
 
+    }
 }
