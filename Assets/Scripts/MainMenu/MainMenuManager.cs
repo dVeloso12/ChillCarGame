@@ -39,7 +39,8 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] AudioMixer Effects, Music;
 
     [SerializeField] string filePath;
-
+    [SerializeField] GameObject LoadingScreen;
+    [SerializeField] Image barLoading;
     void Start()
     {
         Currentstatemenu = SettingMenuState.None;
@@ -326,6 +327,25 @@ public class MainMenuManager : MonoBehaviour
         {
             Debug.Log("File does not exist");
           
+        }
+    }
+
+    public void toLoadingScreen()
+    {
+        LoadingScreen.SetActive(true);
+        StartCoroutine(LoadSceneAsync());
+    }
+    IEnumerator LoadSceneAsync()
+    {
+        
+        AsyncOperation op = SceneManager.LoadSceneAsync("GameScene");
+        while(!op.isDone)
+        {
+         
+            float progess = Mathf.Clamp01(op.progress / 0.9f);
+          
+            barLoading.fillAmount = progess;
+            yield return null;
         }
     }
 }
